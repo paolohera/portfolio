@@ -93,10 +93,11 @@ export default {
 
     <!-- Static Card 5 -->
     <div class="card">
-      <img src="/src/assets/aqua.png" alt="Ecommerce Prototype" class="card-image" />
-      <h3 class="card-title">Ecommerce Prototype</h3>
+      <img src="/src/assets/student.png" alt="Ecommerce Prototype" class="card-image" />
+      <h3 class="card-title">Student Companion</h3>
       <p class="card-description">
-        This project is the Prototype of OceanVibe.
+        TaskFlow is a feature-rich task management system tailored for students to keep their academic life organized.
+         From setting task deadlines, marking progress, and reviewing completed tasks, TaskFlow does it all!
       </p>
       <a href="javascript:void(0)" @click="goToWarningPage">
       <button class="button">
@@ -110,10 +111,12 @@ export default {
 
     <!-- Static Card 6 -->
     <div class="card">
-      <img src="/src/assets/calendar.png" alt="Calendar" class="card-image" />
-      <h3 class="card-title">Calendar</h3>
+      <img src="/src/assets/task.png" alt="Calendar" class="card-image" />
+      <h3 class="card-title">Task Support</h3>
       <p class="card-description">
-        Static Calendar App created when I was in 1st year of college.
+        your personal productivity powerhouse that helps you: Organize tasks efficiently, Prioritize with ease,
+        Find tasks instantly and Track progress like a pro.
+
       </p>
       <a href="javascript:void(0)" @click="goToWarningPage">
       <button class="button">
