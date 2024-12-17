@@ -7,7 +7,7 @@
     <div class="overlay"></div>
     <div class="content">
       <h1>No Source Code For Ya!!</h1>
-      <p>WHAHAHAHAHAHHAHAHAHAHAHHAHAHAHAHHAHA!</p>
+      <p>WHAHAHAHAHAHHAHAHAHAH <span>AHHAHAHAHAHHAHA!</span> </p>
       <div class="button-container">
         <a href="javascript:void(0)" @click="cancelWarning">
           <button class="button">
@@ -226,10 +226,23 @@ h1 {
 
 p {
   font-size: 2rem;
-  max-width: 600px;
+  max-width: 300px;
+  height: 100px;
   text-align: center;
-  margin-bottom: 30px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   font-family: 'Callahan', sans-serif;
+  margin-left: 19%;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .overlay{
+    height: 115vh;
+  }
+  p{
+    margin-left: 2px ;
+    font-size: 25px;
+  }
 }
 </style>

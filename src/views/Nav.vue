@@ -167,7 +167,7 @@ const closeMenu = () => {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-color: black;
     flex-direction: column;
     justify-content: center;
@@ -188,7 +188,7 @@ const closeMenu = () => {
   }
 
   .links li {
-    margin: 20px 0;
+    margin: 5px 0;
     text-align: center;
   }
 
@@ -197,7 +197,7 @@ const closeMenu = () => {
   }
 
   .social-icons {
-    margin-top: 30px;
+    margin-top: 5px;
     margin-left: 0;
   }
 
