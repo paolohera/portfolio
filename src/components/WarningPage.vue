@@ -1,7 +1,7 @@
 <template>
   <div class="warning-page">
     <audio autoplay loop>
-  <source src="../assets/Baka.MP3" type="audio/mpeg">
+  <source src="../assets/baka.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
     <div class="overlay"></div>
