@@ -165,6 +165,11 @@ font-size: 16px;
   
   margin-top: 8%;
 }
+  .imgcont1 {
+  display: none;
+}.imgcont2 {
+    display: none;
+}
 
 
   .btn-cont {
