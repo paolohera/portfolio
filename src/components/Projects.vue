@@ -76,11 +76,11 @@ export default {
 
     <!-- Static Card 4 -->
     <div class="card">
-      <img src="/src/assets/olas.png" alt="Prototype" class="card-image" />
-      <h3 class="card-title">Prototype</h3>
+      <img src="/src/assets/wesf.png" alt="Prototype" class="card-image" />
+      <h3 class="card-title">Grocery Escort</h3>
       <p class="card-description">
-        A Static Website created by me using HTML & CSS. Its purpose is only to guide and let users view what Olango Island Has.
-      </p>
+        Do you ever struggle to keep track of your grocery lists, manage completed items, or avoid forgetting that one critical item? Grocery Escort is the all-in-one web app designed to simplify and elevate your grocery shopping experience.
+              </p>
       <a href="javascript:void(0)" @click="goToWarningPage">
       <button class="button">
         <span class="button_lg">

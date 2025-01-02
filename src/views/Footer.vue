@@ -41,7 +41,7 @@ const address = 'Osmeña St. Gun-Ob Lapu-Lapu City, Cebu. Philippines';
 @import url('https://fonts.cdnfonts.com/css/technolab');
 
 .footer {
-  background-color: black;
+  background-color: transparent;
   color: #fff;
   padding: 2.5rem 1.5rem;
   font-family: 'Poppins', sans-serif;

@@ -2,6 +2,14 @@
 import Projects from '../components/Projects.vue'
 import About from '../components/AboutMe.vue'
 
+// Function to handle resume download
+const handleResumeDownload = () => {
+  const link = document.createElement('a')
+  link.href = new URL('../assets/Paolo.docx', import.meta.url).href
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
+}
 </script>
 
 <template>
@@ -19,18 +27,28 @@ import About from '../components/AboutMe.vue'
         <span class="button_text">Hire Me</span>
     </span>
   </button>
+
 </a>
+
+<button class="button" @click="handleResumeDownload">
+        <span class="button_lg">
+          <span class="button_sl"></span>
+          <span class="button_text">Resume</span>
+        </span>
+      </button>
+
+
 
    </div>
    <div class="image-wrapper">
      <div class="imgcont2"></div>
      <div class="imgcont1"></div>
      <div class="imgcont">
-         <img class="pic" src="/src/assets/pao.png">
+         <img class="pic" src="/src/assets/wes.jpg">
      </div>
    </div>
  </div>
-
+ 
  <About />
  <Projects />
 
@@ -204,7 +222,7 @@ font-size: 16px;
   transition: all .15s ease;
   z-index: 10;
   width: 200px;
- 
+ margin-right: 10px;
 }
 
 .button::before,

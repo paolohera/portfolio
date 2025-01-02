@@ -2,7 +2,7 @@
   <div class="about">
     <div class="content">
       <h1>
-        I am an IT college student specializing in network configuration, proficient in operating system installation, hardware, and software setup. My coding expertise lies in HTML, CSS, JavaScript, and Vue.js, where I am passionate about crafting immersive and user-friendly web experiences. In addition to my technical skills, I am dedicated to continuous learning and staying updated with the latest advancements in the IT industry, always eager to tackle new challenges and expand my knowledge.
+        An IT college student specializing in network configuration, proficient in operating system installation, hardware, and software setup. My coding expertise lies in HTML, CSS, JavaScript, and Vue.js, where I am passionate about crafting immersive and user-friendly web experiences. In addition to my technical skills, I am dedicated to continuous learning and staying updated with the latest advancements in the IT industry, always eager to tackle new challenges and expand my knowledge.
       </h1>
     </div>
   </div>
@@ -19,6 +19,7 @@
   padding: 0 2rem;
   font-family: 'Poppins', sans-serif;
   animation: fadeIn 1.5s ease-in-out;
+ 
 }
 
 /* Content container with smooth, elegant design */
@@ -30,6 +31,7 @@
   border-radius: 12px;
   animation: fadeInUp 1.5s ease-out;
   text-align: center;
+
 }
 
 /* Heading styling with clean and simple text */
