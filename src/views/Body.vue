@@ -223,6 +223,7 @@ font-size: 16px;
   z-index: 10;
   width: 200px;
  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .button::before,
