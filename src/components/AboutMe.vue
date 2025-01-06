@@ -9,7 +9,7 @@
 </template>
 
 <style scoped>
-/* Aesthetic background with soft gradient */
+
 .about {
   display: flex;
   justify-content: center;

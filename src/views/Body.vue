@@ -5,7 +5,7 @@ import About from '../components/AboutMe.vue'
 // Function to handle resume download
 const handleResumeDownload = () => {
   const link = document.createElement('a')
-  link.href = new URL('../assets/Paolo.docx', import.meta.url).href
+  link.href = new URL('../assets/Paoloresume.docx', import.meta.url).href
   document.body.appendChild(link)
   link.click()
   document.body.removeChild(link)
@@ -165,10 +165,14 @@ font-size: 16px;
   
   margin-top: 8%;
 }
-  .imgcont1 {
+
+.imgcont1 {
+  
   display: none;
-}.imgcont2 {
-    display: none;
+}
+
+.imgcont2 {
+  display: none;
 }
 
 
@@ -213,7 +217,7 @@ font-size: 16px;
   z-index: 10;
   width: 200px;
  margin-right: 10px;
-  margin-bottom: 10px;
+ margin-bottom: 10px;
 }
 
 .button::before,
